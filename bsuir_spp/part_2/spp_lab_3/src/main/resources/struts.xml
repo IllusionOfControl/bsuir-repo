@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<constant name="struts.devMode" value="true"></constant>
+
+<package name="user" namespace="" extends="struts-default">
+	<action name="home">
+		<result>/login.jsp</result>
+	</action>
+	<action name="login" class="main.java.com.lr3.action.LoginAction">
+	<result name="SUCCESS">/welcome.jsp</result>
+	<result name="ERROR">/error.jsp</result>
+	</action>
+
+	<action name="register" class="main.java.com.lr3.action.RegisterAction">
+		<result name="SUCCESS">/welcome.jsp</result>
+		<result name="ERROR">/error.jsp</result>
+	</action>
+
+	<action name="table" class="main.java.com.lr3.action.TableAction">
+		<result name="success">/table.jsp</result>
+	</action>
+
+	<action name="add" class="main.java.com.lr3.action.AddAction">
+		<result name="success">/welcome.jsp</result>
+	</action>
+
+	<action name="edit" class="main.java.com.lr3.action.EditAction">
+		<result name="success">/welcome.jsp</result>
+		<result name="error">/errorUpdate.jsp</result>
+	</action>
+
+	<action name="delete" class="main.java.com.lr3.action.DeleteAction">
+		<result name="success">/welcome.jsp</result>
+	</action>
+
+	<action name="addPage">
+		<result>/add.jsp</result>
+	</action>
+
+	<action name="editPage">
+		<result>/edit.jsp</result>
+	</action>
+
+	<action name="deletePage">
+		<result>/delete.jsp</result>
+	</action>
+</package>
+
+</struts>
