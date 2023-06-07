@@ -1,0 +1,8 @@
+John Smith; Faculty of Science; Department of Mathematics; Professor; 40
+Jane Doe; Faculty of Science; Department of Physics; Associate Professor; 30
+Bob Johnson; Faculty of Arts; Department of History; Assistant Professor; 35
+Alice Brown; Faculty of Arts; Department of History; Lecturer; 15
+Tom Wilson; Faculty of Engineering; Department of Computer Science; Associate Professor; 35
+David Brown; Faculty of Engineering; Department of Computer Science; Lecturer; 55
+Oscar Anderson; Faculty of Engineering; Department of Computer Science; Associate Professor; 60
+Sara Lee; Faculty of Engineering; Department of Electrical Engineering; Professor; 40
