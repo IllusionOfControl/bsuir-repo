@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ExamList" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ExamList" parent="Base.Theme.ExamList" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- ... other styles ... -->
+        <item name="toolbarNavigationButtonStyle">@style/ToolbarNavigationButton</item>
+    </style>
+
+    <style name="ToolbarNavigationButton" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+</resources>
